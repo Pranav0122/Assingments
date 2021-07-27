@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    position: relative;
+    color: white;
+    font-size: 54px;
+    text-align: center;
+    background-color: #219ebc;
+    height: 70px;
+
+}
+
+.headSpan {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+}
+
+.container {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    margin: 3% 25%;
+}
+
+
+.box {
+    padding: 10px;
+}
+
+.contacts {
+    border-radius: 5px;
+    position: sticky;
+    top: 2%;
+    background-color: #5e60ce;
+    color: white;
+    font-size: 25px;
+    padding-left: 25px;
+}
+
+.content ul li {
+    font-weight: bold;
+    padding: 15px;
+    list-style-type: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+i.uil-user-circle {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.contactNum {
+    float: right;
+}
+
+i.fa-phone-alt,
+.fa-sms,
+.fa-whatsapp {
+    padding: 6px;
+    font-size: 15px;
+    transition: 0.3s all ease-in-out;
+}
+
+i.fa-whatsapp {
+    color: green;
+}
+
+i.fa-phone-alt:hover {
+    font-size: 20px;
+}
+
+i.fa-sms:hover {
+    font-size: 25px;
+}
+
+i.fa-whatsapp:hover {
+    font-size: 25px;
+}
