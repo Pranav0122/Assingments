@@ -1,0 +1,37 @@
+.container{
+    background-color: aquamarine;
+}
+/*For Navbar */
+nav{
+    width: 50vw;
+    margin:10px auto;
+    background-color: blue;
+}
+.navbar-brand:nth-of-type(1){
+    font-weight: bolder;
+}
+/* For Profile Card */
+h5.card-text{
+ font-weight: lighter;   
+}
+div.card{
+    width: 50vw;
+    margin: 0 auto;
+}
+.img-fluid.rounded-start{
+    height: 100%;
+}
+h4{
+    font-weight: bold;
+}
+#last{
+    margin-bottom: 5px;
+}
+/* Image Responsiveness */
+@media screen and (max-width:768px)
+{
+    .img-fluid.rounded-start{
+        height: 100%;
+        width: 100%;
+    }
+}
