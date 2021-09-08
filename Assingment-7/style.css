@@ -1,0 +1,85 @@
+.degreeSign{
+    font-size:20px;
+}
+body{
+    height: 100vh;
+    font-family:helvetica;
+    background-image: url("https://images.unsplash.com/photo-1563974318767-a4de855d7b43?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHdlYXRoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content: space space-evenly;
+    align-items: center;
+}
+p{
+    margin: 5px;
+    color:rgba(0, 0, 28, 0.98);
+}
+#container{
+    background:rgba(256,256,256,.5);
+    width:400px;
+    text-align:center;
+    border-radius:30px;
+}
+#innerContainer{
+    width:350px;
+    text-align:center;
+    background:rgba(256,256,256,.6);
+    border-radius:30px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+div{
+    margin:10px auto;
+}
+input{
+    border:none;
+    margin:10px auto;
+    width:200px;
+    height:30px;
+    text-align:center;
+    font-size:25px;
+    padding:5px;
+    background-color:rgba(0, 255, 28, 0.34);
+    border-radius:10px;
+}
+button{
+    color:black;
+    border:none;
+    margin:auto;
+    width:215px;
+    height:40px;
+    text-align:center;
+    font-size:25px;
+    padding:5px;
+    border-radius:10px;
+    background-color: rgba(0, 0, 0, 0.20);
+}
+button:hover{
+    background-color:lightskyblue;
+}
+#location{
+    font-weight: bold;
+    font-size:20px;
+}
+#time{
+    font-weight: bold;
+    font-size:20px;
+}
+#temp{
+    font-weight: bolder;
+    text-shadow: 4px 4px rgba(0,0,0,0.30);
+    font-size:40px;
+}
+#minmax{
+    font-weight: bold;
+    font-size:15px;
+}
+#weather{
+    font-weight: bold;
+    font-size:20px;
+}
+#speed{
+    font-weight: bold;
+    font-size:20px;
+}
